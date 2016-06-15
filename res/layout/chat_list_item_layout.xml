@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+    
+    <TextView
+        android:id="@+id/tvDate"
+        style="@style/style_date_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+<!--     <TextView
+        android:id="@+id/tvName"       
+        style="@style/style_username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_chat_text"/>
+
+</RelativeLayout>
